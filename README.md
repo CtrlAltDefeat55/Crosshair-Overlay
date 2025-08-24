@@ -19,7 +19,7 @@ A lightweight, always-on-top **crosshair overlay** for Windows/macOS/Linux built
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshot](#screenshot)
+- [User Interface](#user-interface)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Start/Stop & status](#startstop--status)
@@ -29,7 +29,6 @@ A lightweight, always-on-top **crosshair overlay** for Windows/macOS/Linux built
 - [Known limitations](#known-limitations)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -42,18 +41,10 @@ A lightweight, always-on-top **crosshair overlay** for Windows/macOS/Linux built
 - **Reset to center** of the current screen
 - **Presets**: create, save, delete, and auto-load last state (`crosshair_presets.json`, `crosshair_last_state.json`)
 
-## Screenshot
+## User Interface
 
-Add a screenshot at `assets/screenshot.png` and reference it here:
+<img width="397" height="729" alt="UI overlay" src="https://github.com/user-attachments/assets/72f96f03-2f82-45ba-99b8-57e700ecef5f" />
 
-```md
-![App screenshot](assets/screenshot.png)
-```
-
-> Note: This repo’s `.gitignore` ignores image/video files by default (per project request).  
-> Remove the relevant patterns from `.gitignore` if you want to track images in Git.
-
----
 
 ## Installation
 
@@ -64,9 +55,9 @@ git clone https://github.com/<you>/crosshair-overlay.git
 cd crosshair-overlay
 
 # (Optional) create a virtual environment
-python -m venv .venv
+python -m venv venv
 # Windows
-.\.venv\Scripts\activate
+.\venv\Scripts\activate
 # macOS/Linux
 # source .venv/bin/activate
 
@@ -127,9 +118,3 @@ python crosshair_overlay.py
 ## Contributing
 
 Contributions are welcome! Please read **[CONTRIBUTING.md](CONTRIBUTING.md)** for style, testing, and PR guidelines.
-
----
-
-## License
-
-Add your license file (e.g., MIT). If you already have a `LICENSE`, keep it at the repo root.
