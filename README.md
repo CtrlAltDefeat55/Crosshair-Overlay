@@ -1,4 +1,4 @@
-# Crosshair Overlay (Tkinter)
+# Crosshair Overlay
 
 A lightweight, always-on-top **crosshair overlay** for Windows/macOS/Linux built with **Tkinter**. Control it with a side panel: choose crosshair **type**, **color**, **size**, and **opacity**; **lock/unlock** and drag to position; **reset** to center; and **save/load presets** that persist across runs.
 
