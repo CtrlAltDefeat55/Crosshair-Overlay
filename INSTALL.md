@@ -14,9 +14,9 @@ cd crosshair-overlay
 ## 2) Create a virtual environment (recommended)
 
 ```bash
-python -m venv .venv
+python -m venv venv
 # Windows
-.\.venv\Scripts\activate
+.\venv\Scripts\activate
 # macOS/Linux
 source .venv/bin/activate
 ```
@@ -25,7 +25,7 @@ source .venv/bin/activate
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt  # no third‑party deps
+python -m pip install -r requirements.txt 
 ```
 
 ### Linux: install Tkinter (if missing)
