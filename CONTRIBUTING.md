@@ -7,9 +7,9 @@ Thanks for helping improve the **Advanced QR Code Generator (Tkinter)**! PRs and
 ```bash
 git clone https://github.com/<you>/qr-code-generator-gui.git
 cd qr-code-generator-gui
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
+python -m venv venv
+# Windows: venv\Scripts\activate
+# macOS/Linux: source venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
