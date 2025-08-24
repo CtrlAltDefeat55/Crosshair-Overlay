@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build/Dist
+build/
+dist/
+
+# Logs / temp
+*.log
+*.tmp
+tmp/
+temp/
+
+# By request: ignore images & videos (remove entries if you want to track assets)
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+*.webp
+*.ico
+*.icns
+*.heic
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wmv
+*.m4v

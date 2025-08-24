@@ -1,0 +1,2 @@
+# No third-party dependencies required.
+# Tkinter is part of the Python standard library (ensure your Python includes Tk).
