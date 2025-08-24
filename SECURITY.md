@@ -2,7 +2,7 @@
 
 ## Reporting
 
-If you discover a vulnerability or privacy issue, please open a GitHub issue with **SECURITY** in the title. Avoid publishing exploit details; a maintainer will coordinate next steps and timelines.
+If you discover a vulnerability or privacy issue, please open a **GitHub issue** with **SECURITY** in the title or email the maintainers if you prefer not to disclose publicly. Avoid publishing exploit details; a maintainer will coordinate next steps and timelines.
 
 ## Data & privacy
 
@@ -11,7 +11,7 @@ If you discover a vulnerability or privacy issue, please open a GitHub issue wit
 
 ## Permissions & risks
 
-- The overlay is an always-on-top window. Some apps (especially games) may render above it; behavior varies across OS/WM/GPU.
+- The overlay is an always‑on‑top window. Some apps (especially games) may render above it; behavior varies across OS/WM/GPU.
 - Transparency relies on Tk/window manager features; test on your system before streaming/competitive use.
 
 ## Responsible use & Terms
